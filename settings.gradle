@@ -1,0 +1,2 @@
+rootProject.name = "ICT600-BMI-CALCULATOR"
+include ':app'
