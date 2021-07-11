@@ -32,7 +32,7 @@ Group: D1CS2405A\n\n
 Information\n
 This Android mobile application is about to calculates the Body Mass Index (BMI).\n\n
 Copyright Statement\n
-Application Website Url: ©️ 2021 BMI Calculator Apps"
+Application Website Url: https://github.com/HafizhMunir/BMI-Calculator-Apps ©️ 2021 BMI Calculator Apps"
             android:textSize="18sp" />
 
     </LinearLayout>
