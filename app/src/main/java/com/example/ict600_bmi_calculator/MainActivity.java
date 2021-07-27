@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (inMetricUnits) {
                     if (weightKgEditText.length() == 0 || heightCmEditText.length() == 0) {
-                        Toast.makeText(MainActivity.this, "Please Enter Weight and Height to Calculate BMI", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Please Enter Height and Weight to Calculate BMI!!!", Toast.LENGTH_SHORT).show();
                     } else {
                         double heightInCms = Double.parseDouble(heightCmEditText.getText().toString());
                         double weightInKgs = Double.parseDouble(weightKgEditText.getText().toString());
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 } else {
                     if (weightLbsEditText.length() == 0 || heightFtEditText.length() == 0 || heightInEditText.length() == 0) {
-                        Toast.makeText(MainActivity.this, "Please Enter Weight and Height to Calculate BMI", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Please Enter Height and Weight to Calculate BMI!!!", Toast.LENGTH_SHORT).show();
                     } else {
                         double heightFeet = Double.parseDouble(heightFtEditText.getText().toString());
                         double heightInches = Double.parseDouble(heightInEditText.getText().toString());
