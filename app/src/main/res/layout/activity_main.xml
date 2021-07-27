@@ -7,23 +7,30 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="79dp"
+        android:src="@drawable/iconbmi" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="BMI Calculator"
+        android:text="BMI Calculator By Hafizh"
         android:textSize="28dp"/>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="291dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="About Page" />
 
     <ToggleButton
         android:id="@+id/activity_main_toggleunits"
-        android:layout_width="match_parent"
+        android:layout_width="294dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:checked="true"
         android:textOff="Imperial Units"
         android:textOn="Metric Units" />
@@ -145,10 +152,10 @@
 
     <Button
         android:id="@+id/activity_main_calculate"
-        android:layout_width="match_parent"
+        android:layout_width="291dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Calculate" />
+        android:text="Calculate BMI" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -168,7 +175,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="BMI"
+                android:text=" RESULT BMI: "
                 android:textSize="24sp"/>
 
         </LinearLayout>
