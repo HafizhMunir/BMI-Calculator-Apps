@@ -8,12 +8,12 @@ public class BMICal {
     private static final int INCHES_IN_FOOT = 12;
     private static final int BMI_IMPERIAL_WEIGHT_SCALAR = 703;
 
-    public static final String BMI_CATEGORY_UNDERWEIGHT = "BMI Category: Underweight | Health Risk: Malnutrition Risk";
-    public static final String BMI_CATEGORY_HEALTHY = "BMI Category: Normal Weight | Health Risk: Low Risk";
-    public static final String BMI_CATEGORY_OVERWEIGHT = "BMI Category: Overweight | Health Risk: Enhanced Risk";
-    public static final String BMI_CATEGORY_OBESE = "BMI Category: Moderately Obese | Health Risk: Medium Risk";
-    public static final String BMI_CATEGORY_OBESE1 = "BMI Category: Severely Obese | Health Risk: High Risk";
-    public static final String BMI_CATEGORY_OBESE2 = "BMI Category: Very Severely Obese | Health Risk: Very High Risk";
+       public static final String BMI_CATEGORY_UNDERWEIGHT = "BMI Category: Underweight \n Health Risk: Malnutrition Risk";
+    public static final String BMI_CATEGORY_HEALTHY = "BMI Category: Normal Weight \n Health Risk: Low Risk";
+    public static final String BMI_CATEGORY_OVERWEIGHT = "BMI Category: Overweight \n Health Risk: Enhanced Risk";
+    public static final String BMI_CATEGORY_OBESE = "BMI Category: Moderately Obese \n Health Risk: Medium Risk";
+    public static final String BMI_CATEGORY_OBESE1 = "BMI Category: Severely Obese \n Health Risk: High Risk";
+    public static final String BMI_CATEGORY_OBESE2 = "BMI Category: Very Severely Obese \n Health Risk: Very High Risk";
 
     public static BMICal getInstance() {
         return instance;
